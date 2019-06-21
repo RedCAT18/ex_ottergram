@@ -36,16 +36,29 @@ a {
   text-decoration: none;
 }
 
-.main__header {
+.main__header,
+.main__footer {
   flex: 0 1 auto;
 }
 
-.logo__text {
+.logo__text,
+.footer__text {
   background-color: white;
   text-align: center;
   text-transform: uppercase;
   font-family: lakeshore;
   font-size: 3rem;
+}
+
+.main__footer {
+  margin-top: 40px;
+}
+
+.footer__text {
+  font-size: 2rem;
+  color: gray;
+  padding: 10px;
+  margin: 0;
 }
 
 .main__content {
@@ -65,6 +78,10 @@ a {
   white-space: nowrap;
   overflow-x: auto;
 }
+/* 
+.thumbnail__nav {
+  order: -1;
+} */
 
 .thumbnail__image {
   width: 100%;
